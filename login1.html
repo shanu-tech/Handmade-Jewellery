@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  height:100%;
+  font-family: Arial;
+  padding-bottom:0px;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  padding:43px;
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.yz4_fVqi7iKBhwXqp4pMFAHaEK&pid=Api&P=0&w=1300&h=600");
+  background-position: center;
+  position: relative;
+}
+
+#container {
+  font-family:arial;
+  width:400px;
+  text-align:center;
+  padding-right:70px;
+  padding-top:20px;
+  padding-bottom:50px;
+  background-color:lavender;
+  margin-left:700px;
+  height:410px;
+  margin-bottom:0px;
+	padding-left:40px;
+}
+
+input[type=text], input[type=password] {
+  width: 70%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 15px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  
+}
+
+.btn:hover {
+  opacity: 1;
+}
+header{
+	display	: block;
+	text-align:left;
+	padding-left:40px;
+	position: sticky;
+	top:0;
+	background-color:snow;
+	padding:20px;
+}
+#types {
+		width:20px;
+		}
+
+option {
+		width:550%;
+		}
+
+</style>
+</head>
+<body>
+	<header>
+		<div style = "text-align:center; font-family:cursive; font-size:45px;background-color:#FDEFEF;">Handmade Jewellery
+		<nav style = "display:flex;justify-content:space-around;background-color:#fffaf0; font-size:30px; padding-bottom:0px;">
+		<a href="file:///F:/HTML5/HandmadeJewelere/project.html">Home</a>
+		<a ="#"><label for="list">Collections
+			<select id="types" name="list">
+				<a ="#"><option>Earrings</option></a>
+				<a ="#"><option>Bangles</option></a>
+				<a ="#"><option>Chains</option></a>
+				<a ="#"><option>All-in-One</option></a>
+			</select>
+		</label></a>
+		<a href="file:///F:/HTML5/HandmadeJewelere/about1.html">About Us</a>
+		<a href="file:///F:/HTML5/HandmadeJewelere/login1.html">Login</a>
+		<a href="#">Cart</a>
+		</nav>
+		</div>
+	</header>
+	<div class="bg-img">
+	
+		<nav id='container'>
+		<form>
+			<h1>Login</h1><br><br>
+
+			<label for="email"><b>Email </b></label>
+			<input type="text" placeholder="Enter Email" name="email"><br>
+
+			<label for="psw"><b>Password </b></label>
+			<input type="password" placeholder="Enter Password" name="psw"><br><br>
+
+			<button type="submit" class="btn">Login</button>
+		</form>
+		</nav>
+	</div>
+
+</body>
+</html>
